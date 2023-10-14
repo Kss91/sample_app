@@ -1,1 +1,4 @@
-# validationエラーとなるため削除。８章で修正予定。
+michael:
+  name: Michael Example
+  email: michael@example.com
+  password_digest: <%= User.digest('password') %>
